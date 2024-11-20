@@ -1,13 +1,14 @@
-// import HackathonStuds from "./pages/HackathonStuds";
 import './App.css';
-import HackathonAdmin from "./pages/HackathonAdmin";
+import ContestHackathon from './pages/ContestHackathon';
 import Navbar from './components/Navbar';
 function App() {
   return (
     <div className="App">
       <Navbar />
-      {/* <HackathonAdmin /> */}
-      {/* <HackathonStuds /> */}
+      <ContestHackathon userCred="admin" feat="hackathon" />
+      {/* <ContestHackathon userCred="admin" feat="contest" /> */}
+      {/* <ContestHackathon userCred="student" feat="hackathon" /> */}
+      {/* <ContestHackathon userCred="student" feat="contest" /> */}
     </div>
   );
 }
