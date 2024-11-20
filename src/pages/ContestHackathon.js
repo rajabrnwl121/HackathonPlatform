@@ -7,7 +7,7 @@ const ContestHackathon = ({ userCred, feat }) => {
             <div className="flex flex-wrap flex-col gap-16 items-start bg-[#181C21] text-white w-[1200px] rounded-2xl box-border">
                 <div className="flex items-center justify-between w-[1200px]">
                     <ContestHackathonEvents UP="upcoming" feat={feat} />
-                    {userCred === "admin" ? <AddEvents /> : null}
+                    {userCred === "admin" ? <AddEvents feat={feat} /> : null}
                 </div>
                 <ContestHackathonEvents UP="past" feat={feat} />
             </div>

@@ -6,9 +6,9 @@ function App() {
     <div className="App">
       <Navbar />
       <ContestHackathon userCred="admin" feat="hackathon" />
-      {/* <ContestHackathon userCred="admin" feat="contest" /> */}
-      {/* <ContestHackathon userCred="student" feat="hackathon" /> */}
-      {/* <ContestHackathon userCred="student" feat="contest" /> */}
+      {/* <ContestHackathon userCred="admin" feat="contest" />
+      <ContestHackathon userCred="student" feat="hackathon" />
+      <ContestHackathon userCred="student" feat="contest" /> */}
     </div>
   );
 }
